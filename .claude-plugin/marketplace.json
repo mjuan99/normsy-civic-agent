@@ -1,0 +1,13 @@
+{
+  "name": "normsy-civic-agent",
+  "owner": {
+    "name": "Normsy"
+  },
+  "plugins": [
+    {
+      "name": "normsy-civic-agent",
+      "source": "./plugins/normsy-civic-agent",
+      "description": "Draft and revise constructive replies to contentious civic and political messages using the bundled Normsy manual."
+    }
+  ]
+}

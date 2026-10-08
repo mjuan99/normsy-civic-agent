@@ -1,0 +1,342 @@
+{
+  "sourceRepository": "civic-agent-knowledge-base",
+  "sourceCommit": "fb6a79b409d7c850d406b9fa63039c1298ec6375",
+  "sourceManualHasLocalChanges": false,
+  "excludedDirectories": [
+    "books",
+    "conditional-guidance"
+  ],
+  "manualFileCount": 41,
+  "pathAliases": {
+    "topics/media-bias.md": "topics/media-bias-censorship-free-speech.md",
+    "topics/conspiracy.md": "topics/deep-state-globalist-conspiracy.md",
+    "topics/partisan-hostility.md": "topics/general-partisan-hostility-labeling.md",
+    "topics/character-attacks.md": "topics/character-attacks-personal-insults.md",
+    "topics/child-abuse.md": "topics/child-abuse-violence-against-minors.md",
+    "topics/political-violence.md": "topics/political-assassination-violence.md",
+    "topics/gender-sexuality.md": "topics/gender-sexuality-attacks.md",
+    "topics/fiscal-policy.md": "topics/government-shutdowns-fiscal-policy.md",
+    "topics/judiciary.md": "topics/judiciary-rule-of-law.md",
+    "topics/misinformation.md": "topics/climate-policy.md",
+    "topics/foreign-conflict.md": "topics/foreign-conflict-geopolitical-issues.md",
+    "strategies/irony-humor-sarcasm.md": "strategies/irony.md",
+    "strategies/empathy.md": "normsy-strategies/empathy.md",
+    "strategies/harmful-consequences.md": "normsy-strategies/harmful-consequences.md",
+    "strategies/morality.md": "normsy-strategies/morality.md",
+    "strategies/curiosity.md": "normsy-strategies/curiosity.md",
+    "strategies/exposing.md": "normsy-strategies/exposing.md",
+    "strategies/logic.md": "normsy-strategies/logic.md",
+    "strategies/nonviolent-communication.md": "normsy-strategies/nvc.md"
+  },
+  "files": [
+    {
+      "path": "index.md",
+      "sourceSha256": "4db06110c62df93ad0ca5e25629d391d4d0bcfee94ad54119b253485c9850b91",
+      "bundledSha256": "c3cef2cbc344e80fe3b4e0a8b383c3e23db512482413b94e3620c986355fecf3",
+      "adaptations": [
+        "Removed trailing Books and Academic Research catalogs",
+        "Adapted entry point for direct skill use and added Irony routing"
+      ]
+    },
+    {
+      "path": "normsy-strategies/curiosity.md",
+      "sourceSha256": "858fefc99a2ec84c8d20d75310ff37ca126881d9b34dd623bbb10f21c650730c",
+      "bundledSha256": "bc85f134a69b0e2d7008728bd1093402d7dc823a04bba69d48d779c568fe6851",
+      "adaptations": [
+        "Corrected reference: topics/conspiracy.md -> topics/deep-state-globalist-conspiracy.md",
+        "Corrected reference: topics/misinformation.md -> topics/climate-policy.md",
+        "Corrected reference: strategies/exposing.md -> normsy-strategies/exposing.md",
+        "Corrected reference: strategies/logic.md -> normsy-strategies/logic.md"
+      ]
+    },
+    {
+      "path": "normsy-strategies/empathy.md",
+      "sourceSha256": "c8beae7a200e4c473e3ccbfac1a94511fda6fd49e7f8bfb05fd76a3592b7a928",
+      "bundledSha256": "23c5c41eae1b3c6abb48d0a7d6011cc5d6798c6b35727423f92af933b1bd6ce1",
+      "adaptations": [
+        "Corrected reference: topics/character-attacks.md -> topics/character-attacks-personal-insults.md",
+        "Corrected reference: topics/gender-sexuality.md -> topics/gender-sexuality-attacks.md",
+        "Corrected reference: strategies/morality.md -> normsy-strategies/morality.md",
+        "Corrected reference: strategies/nonviolent-communication.md -> normsy-strategies/nvc.md"
+      ]
+    },
+    {
+      "path": "normsy-strategies/exposing.md",
+      "sourceSha256": "db2c246897498eb8272748448d7b792cdc8766bb86515bfb72e14166daf3e77c",
+      "bundledSha256": "1be852e95b8bb1c45de7ea08f1a80ef2836fa5affcfd2b80cc954798da278a56",
+      "adaptations": [
+        "Corrected reference: topics/media-bias.md -> topics/media-bias-censorship-free-speech.md",
+        "Corrected reference: topics/misinformation.md -> topics/climate-policy.md",
+        "Corrected reference: strategies/curiosity.md -> normsy-strategies/curiosity.md",
+        "Corrected reference: strategies/logic.md -> normsy-strategies/logic.md"
+      ]
+    },
+    {
+      "path": "normsy-strategies/harmful-consequences.md",
+      "sourceSha256": "08044399822a623143aeebdad171e2ef4518d3217bcf11989f3f693c427a8e82",
+      "bundledSha256": "ace5712a52aedb1d2243333b3a3d27eabeb2ce160b8be869f7a4f2559766d7bd",
+      "adaptations": [
+        "Corrected reference: topics/partisan-hostility.md -> topics/general-partisan-hostility-labeling.md",
+        "Corrected reference: topics/fiscal-policy.md -> topics/government-shutdowns-fiscal-policy.md",
+        "Corrected reference: topics/judiciary.md -> topics/judiciary-rule-of-law.md",
+        "Corrected reference: strategies/morality.md -> normsy-strategies/morality.md",
+        "Corrected reference: strategies/nonviolent-communication.md -> normsy-strategies/nvc.md"
+      ]
+    },
+    {
+      "path": "normsy-strategies/index.md",
+      "sourceSha256": "0456d8e0f0e9ac960b475a81688c59d10cd2121a5031cfcc229b3321b6116b74",
+      "bundledSha256": "0456d8e0f0e9ac960b475a81688c59d10cd2121a5031cfcc229b3321b6116b74",
+      "adaptations": []
+    },
+    {
+      "path": "normsy-strategies/irony.md",
+      "sourceSha256": "8dbbb58fb1d7d43b4c36f288b41e0fd0f7c29c5238097b3e57664c16b1895292",
+      "bundledSha256": "95be5aa89458e26553e661c6ad6a1be68a8ebbc33dd09b5ea85707915ff65e00",
+      "adaptations": [
+        "Corrected reference: topics/media-bias.md -> topics/media-bias-censorship-free-speech.md",
+        "Corrected reference: topics/partisan-hostility.md -> topics/general-partisan-hostility-labeling.md",
+        "Corrected reference: topics/character-attacks.md -> topics/character-attacks-personal-insults.md"
+      ]
+    },
+    {
+      "path": "normsy-strategies/logic.md",
+      "sourceSha256": "24ea281bd355d26b2874ab51044682c0a539e5f3e18be2dd2cf12b45299cb5dc",
+      "bundledSha256": "7375ba1ff2220c9e002c68afe10ea70230c28af4fafd3a7448a1957995094a3a",
+      "adaptations": [
+        "Corrected reference: topics/conspiracy.md -> topics/deep-state-globalist-conspiracy.md",
+        "Corrected reference: topics/misinformation.md -> topics/climate-policy.md",
+        "Corrected reference: strategies/curiosity.md -> normsy-strategies/curiosity.md",
+        "Corrected reference: strategies/exposing.md -> normsy-strategies/exposing.md"
+      ]
+    },
+    {
+      "path": "normsy-strategies/morality.md",
+      "sourceSha256": "b1a8f76b38a8fe81ac9ae0c4088059c6f42c16fbd837b031b37e919665cae5ef",
+      "bundledSha256": "8a1013908436d5a7336336e09e1fc05494adbc9fc3d9d41c85b2c56b0536cd22",
+      "adaptations": [
+        "Corrected reference: topics/partisan-hostility.md -> topics/general-partisan-hostility-labeling.md",
+        "Corrected reference: topics/political-violence.md -> topics/political-assassination-violence.md",
+        "Corrected reference: topics/gender-sexuality.md -> topics/gender-sexuality-attacks.md",
+        "Corrected reference: strategies/empathy.md -> normsy-strategies/empathy.md",
+        "Corrected reference: strategies/harmful-consequences.md -> normsy-strategies/harmful-consequences.md"
+      ]
+    },
+    {
+      "path": "normsy-strategies/nvc.md",
+      "sourceSha256": "21f38b2fa47d14deaff3f8111faa3c8a6a4767271d2df71274d95db81cbe310e",
+      "bundledSha256": "da812e7b8d744222361ea9ada5ff79e0c8c8c3c799cd77d33a451feff79d28d0",
+      "adaptations": [
+        "Corrected reference: topics/character-attacks.md -> topics/character-attacks-personal-insults.md",
+        "Corrected reference: topics/child-abuse.md -> topics/child-abuse-violence-against-minors.md",
+        "Corrected reference: topics/foreign-conflict.md -> topics/foreign-conflict-geopolitical-issues.md",
+        "Corrected reference: strategies/empathy.md -> normsy-strategies/empathy.md",
+        "Corrected reference: strategies/curiosity.md -> normsy-strategies/curiosity.md"
+      ]
+    },
+    {
+      "path": "normsy-strategies/selection-guidance.md",
+      "sourceSha256": "79434bbcb7a893c41d3ec8c0ca83e316ad16fd32db3151b9364e50f8f996a1d4",
+      "bundledSha256": "10ca9255fef0d3639afe894f43a755d6221adae719690956cf973872290b9750",
+      "adaptations": [
+        "Replaced research handoff with direct drafting guidance"
+      ]
+    },
+    {
+      "path": "strategies/ad-hominem.md",
+      "sourceSha256": "2fdf619f1cccdf9b930ea4d70107fd0955db9547c160ae189a96a1f0f7dcbe80",
+      "bundledSha256": "2fdf619f1cccdf9b930ea4d70107fd0955db9547c160ae189a96a1f0f7dcbe80",
+      "adaptations": []
+    },
+    {
+      "path": "strategies/appeal-to-crowd.md",
+      "sourceSha256": "c8fe8176f571af24e5a02f485c6d84fbf250da2136ef6ac75f288be1898bfcd8",
+      "bundledSha256": "c8fe8176f571af24e5a02f485c6d84fbf250da2136ef6ac75f288be1898bfcd8",
+      "adaptations": []
+    },
+    {
+      "path": "strategies/epistemic-vertigo.md",
+      "sourceSha256": "9fd1490c121bc02254797993e7fcf6d92fa4fb0ac1663e3ab42bf2d01e56cadb",
+      "bundledSha256": "172865faf20181c12696f7d3b73ff5e94ff0f384a317c96b5a8d5f5b83c7b938",
+      "adaptations": [
+        "Corrected reference: topics/media-bias.md -> topics/media-bias-censorship-free-speech.md",
+        "Corrected reference: topics/conspiracy.md -> topics/deep-state-globalist-conspiracy.md",
+        "Corrected reference: topics/partisan-hostility.md -> topics/general-partisan-hostility-labeling.md"
+      ]
+    },
+    {
+      "path": "strategies/false-dichotomy.md",
+      "sourceSha256": "b08baf15955304b03520c4b19bd36627886b8f63f6d0b1600cf44c2dd1d4f4b9",
+      "bundledSha256": "b08baf15955304b03520c4b19bd36627886b8f63f6d0b1600cf44c2dd1d4f4b9",
+      "adaptations": []
+    },
+    {
+      "path": "strategies/gaslighting.md",
+      "sourceSha256": "89fe5679a0ff3a7d91961317424845e6b4f70eada754e41eeb5a304a749221fd",
+      "bundledSha256": "89fe5679a0ff3a7d91961317424845e6b4f70eada754e41eeb5a304a749221fd",
+      "adaptations": []
+    },
+    {
+      "path": "strategies/index.md",
+      "sourceSha256": "b0db773002549fba51289b4cd2266b9bb72657d8ec9d1c2f41b555808659313f",
+      "bundledSha256": "e4a745969c91b63746564666bbf10e01e1baeba87ba9089434fbed828f5eb015",
+      "adaptations": [
+        "Adapted clarification guidance to use context already supplied",
+        "Corrected reference: strategies/irony-humor-sarcasm.md -> strategies/irony.md"
+      ]
+    },
+    {
+      "path": "strategies/irony.md",
+      "sourceSha256": "c1f3949f2c59640826d6f187ab42d98e7b534bf439436914e360a3585a42c436",
+      "bundledSha256": "848f0aa1c348da4bad281843d2991df56a47c95072a941900de6d882a2765134",
+      "adaptations": [
+        "Corrected reference: topics/conspiracy.md -> topics/deep-state-globalist-conspiracy.md",
+        "Corrected reference: topics/partisan-hostility.md -> topics/general-partisan-hostility-labeling.md",
+        "Corrected reference: topics/character-attacks.md -> topics/character-attacks-personal-insults.md",
+        "Corrected reference: topics/child-abuse.md -> topics/child-abuse-violence-against-minors.md"
+      ]
+    },
+    {
+      "path": "strategies/ridicule.md",
+      "sourceSha256": "9614dfe2a020af2c6824eaf76a15eb07ff0faaca69fd505c97a5a98d44e83aee",
+      "bundledSha256": "9614dfe2a020af2c6824eaf76a15eb07ff0faaca69fd505c97a5a98d44e83aee",
+      "adaptations": []
+    },
+    {
+      "path": "strategies/strawmanning.md",
+      "sourceSha256": "1f6fa8769a00d0094b8afa2319b60ada060dc44328e6a5f4503bc55ecff51803",
+      "bundledSha256": "1f6fa8769a00d0094b8afa2319b60ada060dc44328e6a5f4503bc55ecff51803",
+      "adaptations": []
+    },
+    {
+      "path": "strategies/synthetic-consensus.md",
+      "sourceSha256": "5d79281596f3c0bc30f6ea91849be584990ad4dc268730456d3b5e8913134c8a",
+      "bundledSha256": "4686c9dd4e3cd3bef589f749e489a17881f51eb9a277763141f478a546f139dc",
+      "adaptations": [
+        "Corrected reference: topics/media-bias.md -> topics/media-bias-censorship-free-speech.md",
+        "Corrected reference: topics/conspiracy.md -> topics/deep-state-globalist-conspiracy.md",
+        "Corrected reference: topics/partisan-hostility.md -> topics/general-partisan-hostility-labeling.md"
+      ]
+    },
+    {
+      "path": "strategies/whataboutism.md",
+      "sourceSha256": "82bda288ca5d3812071444775448ece7ef5bd928d108048320bbb24c43d8d2ec",
+      "bundledSha256": "82bda288ca5d3812071444775448ece7ef5bd928d108048320bbb24c43d8d2ec",
+      "adaptations": []
+    },
+    {
+      "path": "topics/abortion.md",
+      "sourceSha256": "88e9cd37cb90644b52fda907b396c896ebec5c08e89a9f21327dc2e0c07276a9",
+      "bundledSha256": "88e9cd37cb90644b52fda907b396c896ebec5c08e89a9f21327dc2e0c07276a9",
+      "adaptations": []
+    },
+    {
+      "path": "topics/character-attacks-personal-insults.md",
+      "sourceSha256": "df1f9c7a5e8b553940fcef994a233d071ea81bde171ff0c2299fd083b9896b1e",
+      "bundledSha256": "df1f9c7a5e8b553940fcef994a233d071ea81bde171ff0c2299fd083b9896b1e",
+      "adaptations": []
+    },
+    {
+      "path": "topics/child-abuse-violence-against-minors.md",
+      "sourceSha256": "468efbfea91f4c4562837d24290d5bd9dc29e6f8ee32d6f753b5e96663d9b8d8",
+      "bundledSha256": "468efbfea91f4c4562837d24290d5bd9dc29e6f8ee32d6f753b5e96663d9b8d8",
+      "adaptations": []
+    },
+    {
+      "path": "topics/climate-policy.md",
+      "sourceSha256": "07e05e1d9bb4cd6309a46faef191f5e852c08d7f7d8a60d102d5d46c00b23c5f",
+      "bundledSha256": "07e05e1d9bb4cd6309a46faef191f5e852c08d7f7d8a60d102d5d46c00b23c5f",
+      "adaptations": []
+    },
+    {
+      "path": "topics/crime.md",
+      "sourceSha256": "75b40fbc17bb322b947e784a5ffa8b675952522e22ded95ae8935e7bc63330d7",
+      "bundledSha256": "75b40fbc17bb322b947e784a5ffa8b675952522e22ded95ae8935e7bc63330d7",
+      "adaptations": []
+    },
+    {
+      "path": "topics/deep-state-globalist-conspiracy.md",
+      "sourceSha256": "8ffe62ca90069c4e6ba05e61c06ee9e84c1b0f613869d7eae15107ec445b700c",
+      "bundledSha256": "8ffe62ca90069c4e6ba05e61c06ee9e84c1b0f613869d7eae15107ec445b700c",
+      "adaptations": []
+    },
+    {
+      "path": "topics/election-integrity.md",
+      "sourceSha256": "1b38b8c101ab09c5cddaa9eb944c751f632796a7d92cae245385d49dcb84d7a0",
+      "bundledSha256": "1b38b8c101ab09c5cddaa9eb944c751f632796a7d92cae245385d49dcb84d7a0",
+      "adaptations": []
+    },
+    {
+      "path": "topics/foreign-conflict-geopolitical-issues.md",
+      "sourceSha256": "09fd06b44dcb5573763fae0fe28836e0d503af542354afead89e7caeaa1c60e1",
+      "bundledSha256": "09fd06b44dcb5573763fae0fe28836e0d503af542354afead89e7caeaa1c60e1",
+      "adaptations": []
+    },
+    {
+      "path": "topics/gender-sexuality-attacks.md",
+      "sourceSha256": "d7dd788aff0f7920e50827d99d9eefc8ef31db385e9346fc4a6871c2cc645108",
+      "bundledSha256": "d7dd788aff0f7920e50827d99d9eefc8ef31db385e9346fc4a6871c2cc645108",
+      "adaptations": []
+    },
+    {
+      "path": "topics/general-partisan-hostility-labeling.md",
+      "sourceSha256": "6adc87731566fb610b220bf992e28a4b645a817995fafae24a938302b7060b79",
+      "bundledSha256": "6adc87731566fb610b220bf992e28a4b645a817995fafae24a938302b7060b79",
+      "adaptations": []
+    },
+    {
+      "path": "topics/government-shutdowns-fiscal-policy.md",
+      "sourceSha256": "a4605e6fe7c15aef5d1a575d9b7b54afcf946a942b0c44d935704eea658e9493",
+      "bundledSha256": "a4605e6fe7c15aef5d1a575d9b7b54afcf946a942b0c44d935704eea658e9493",
+      "adaptations": []
+    },
+    {
+      "path": "topics/gun-control.md",
+      "sourceSha256": "13820cbc331b604ec5651febb3e4b4d4db45dc2fb0756c557f091735445f96e9",
+      "bundledSha256": "13820cbc331b604ec5651febb3e4b4d4db45dc2fb0756c557f091735445f96e9",
+      "adaptations": []
+    },
+    {
+      "path": "topics/immigration.md",
+      "sourceSha256": "e6610da4681e3a96ad84bdf2ac617ec69ded921ea72fdd60b8d4aaceb9c3a0e2",
+      "bundledSha256": "e6610da4681e3a96ad84bdf2ac617ec69ded921ea72fdd60b8d4aaceb9c3a0e2",
+      "adaptations": []
+    },
+    {
+      "path": "topics/index.md",
+      "sourceSha256": "eea3d2f09b84c6afa0230f40d5f73469d54b70124e5999032118a30d08da746b",
+      "bundledSha256": "eea3d2f09b84c6afa0230f40d5f73469d54b70124e5999032118a30d08da746b",
+      "adaptations": []
+    },
+    {
+      "path": "topics/judiciary-rule-of-law.md",
+      "sourceSha256": "c2383d017793dce8ec5e04703a72cb68d8f2c1bebf9aac658ee3279a1183b553",
+      "bundledSha256": "c2383d017793dce8ec5e04703a72cb68d8f2c1bebf9aac658ee3279a1183b553",
+      "adaptations": []
+    },
+    {
+      "path": "topics/media-bias-censorship-free-speech.md",
+      "sourceSha256": "dbc66d5ef648da3b5e9a39df768c82b87222ae5c78dfaf7ec3485b2897e7cb51",
+      "bundledSha256": "dbc66d5ef648da3b5e9a39df768c82b87222ae5c78dfaf7ec3485b2897e7cb51",
+      "adaptations": []
+    },
+    {
+      "path": "topics/mental-health.md",
+      "sourceSha256": "a58e8da276e08e3e3b0379a74185d7d525e383331eb982c968d16820f3d3dee9",
+      "bundledSha256": "a58e8da276e08e3e3b0379a74185d7d525e383331eb982c968d16820f3d3dee9",
+      "adaptations": []
+    },
+    {
+      "path": "topics/political-assassination-violence.md",
+      "sourceSha256": "12265a636355871d50dbe92e905512cb1032a1aaee9907dd9e210a6b8f788a24",
+      "bundledSha256": "12265a636355871d50dbe92e905512cb1032a1aaee9907dd9e210a6b8f788a24",
+      "adaptations": []
+    },
+    {
+      "path": "topics/racial-religious-hate.md",
+      "sourceSha256": "886e95877bcf77081692c6d8b1a98290d59b1dd272bbd9d78643ff7347411505",
+      "bundledSha256": "886e95877bcf77081692c6d8b1a98290d59b1dd272bbd9d78643ff7347411505",
+      "adaptations": []
+    }
+  ]
+}

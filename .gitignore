@@ -1,0 +1,9 @@
+# Local files and generated artifacts
+.DS_Store
+.env
+.env.*
+!.env.example
+/scripts/
+/output/
+/input/
+*.zip
